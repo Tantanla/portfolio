@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>taningying Portfolio</title>
+    <title>TanNingYing's Portfolio</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
@@ -26,19 +26,21 @@
         </div>
         <ul id="menu" class="shadow">
             <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
                 <a href="#skills">Skills</a>
             </li>
+
             <li>
                 <a href="#projects">Projects</a>
             </li>
             <li>
                 <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+
+            <li>
+                <a href="#about">About</a>
             </li>
             <li>
                 <a href="#contact">Contact</a>
@@ -51,7 +53,10 @@
         <div id="lead-content">
             <h3>PORTFOLIO</h3>
             <h4>谭宁颖</h4>
-            <a href="assets/resume.pdf" target="_blank" class="btn-rounded-white">简历下载</a>
+            <a href="assets/resume.pdf" target="_blank" class="btn-rounded-white">
+                <p>查看简历（PDF）</p>
+                <p>Resume</p>
+            </a>
         </div>
         <!-- End #lead-content -->
 
@@ -66,72 +71,70 @@
     </div>
     <!-- End #lead -->
 
-    <div id="skills">
-        <h2 class="heading">About Me</h2>
-        <ul>
-            <h4>web3d深度爱好者，热爱技术与艺术结合的一切。喜欢自学和研究新技术，同时也喜欢和团队伙伴一起头脑风暴解决问题的过程。对互联网保持高度关注和敏感。对数据可视化，互动展示行业保持极高的热情。</h4>
-        </ul>
-    </div>
+
    
 
 
-
+<!-- skills -->
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
-            <h4>熟悉HTML5，CSS3，javascripts实现网页弹性式布局，以及webpack打包构建，npm包管理等前端工具链</h4>
-            <h4>熟悉ES6规范，如箭头函数，模版字符串，async等</h4>
-            <h4>熟悉threejs基本语法，如基础场景的搭建，几何体的创建，相机和渲染器的设置，以及3D模型的导入，UV贴图等</h4>
-            <h4>熟悉blender的场景搭建，模型创建，材质还原，灯光氛围布置，UV贴图以及烘焙导出</h4>
-            <h4>熟悉vue3的手脚架使用及基础语法</h4>
-            <h4>熟悉react的手脚架使用及基础语法</h4>
-
+            <h4>three.js</h4>
+            <h4>unity 3D</h4>
+            <h4>blender</h4>
+            <h4>spine</h4>
+            <h4>Vue React svelte c#</h4>
+            <h4>git</h4>
+            <h4>ps figma mastergo</h4>
         </ul>
     </div>
-    <!-- End #skills -->
 
    
-
+<!-- blender project -->
     <div id="projects" class="background-alt-nth">
-        <h2 class="heading">3D Models Projects(blender)</h2>
+        <h2 class="heading">Blender Projects</h2>
+        <p>点击下列图片可在线浏览模型</p>
         <div class="container">
-
             <!-- One Project 3DModel Block -->
             <div class="project shadow-large">
                 <div class="project-glb">
-                    <img class="image" src="assets/thumbs/hotel.png" alt="assets/fulls/model03-full.glb" />
+                    <img class="image" src="assets/thumbs/hotel.png" alt="assets/fulls/model04-full.glb" />
                 </div>
             </div>
-            <!-- End of One Project 3DModel Block -->
-
-
             <div class="project shadow-large">
                 <div class="project-glb">
-                    <img class="image" src="assets/thumbs/easycut.png" alt="assets/fulls/model04-full.glb" />
+                    <img class="image" src="assets/thumbs/hotel.png" alt="assets/fulls/model04-full.glb" />
                 </div>
             </div>
-
+            <div class="project shadow-large">
+                <div class="project-glb">
+                    <img class="image" src="assets/thumbs/hotel.png" alt="assets/fulls/model04-full.mp4" />
+                </div>
+            </div>
         </div>
     </div>
 
-
+<!-- threejs project -->
     <div id="projects" class="background-alt-nth">
-        <h2 class="heading">threejs Projects</h2>
+        <h2 class="heading">Three.js Projects</h2>
         <div class="container-game">
             <div class="project-game shadow-large">
                 <div class="project-image">
-                    <img src="assets/thumbs/cottage.jpg" />
+                    <img src="assets/thumbs/diceroller.png" />
                 </div>
                 <!-- End .project-image -->
                 <div class="project-info">
-                    <h3>cottage in village</h3>
+                    <h3>3D-Dice-Roller</h3>
                     <p>
-                        这是一个在网页浏览3D模型的Demo
+                        3D投骰子并计算骰子总数
                     </p>
                     <p>
-                        技术栈：threejs + React + blender
+                        throw the dice and count the score
                     </p>
-                    <a href="https://tantanla.github.io/3D-cottage/" target="_blank">View Project</a>
+                    <p>
+                        技术栈：threejs + javascript + blender
+                    </p>
+                    <a href="https://tantanla.github.io/3d-dice-roller/" target="_blank">点击此处浏览Demo(Click here)</a>
                 </div>
                 <!-- End .project-info -->
             </div>
@@ -141,14 +144,14 @@
                     <img src="assets/thumbs/3dhouse.jpg" />
                 </div>
                 <div class="project-info">
-                    <h3>3D-VR-House-View</h3>
+                    <h3>3D-VR-HouseView</h3>
                     <p>
-                        这是一个可以VR浏览线上房源的Demo
+                        3D沉浸式浏览房源并切换房间
                     </p>
                     <p>
                         技术栈：threejs + vue + canvas
                     </p>
-                    <a href="https://tantanla.github.io/3DVR-houseview/" target="_blank">View Project</a>
+                    <a href="https://tantanla.github.io/3DVR-houseview/" target="_blank">点击此处浏览Demo(Click here)</a>
                 </div>
             </div>
             <!-- End of One Project Game Block -->
@@ -159,22 +162,108 @@
                 </div>
                 <!-- End .project-image -->
                 <div class="project-info">
-                    <h3>3D-VR-Car-View</h3>
+                    <h3>3D-VR-CarView</h3>
                     <p>
-                        这是一个交互式改变车身颜色浏览车内外的Demo
+                        交互式浏览车模型并手动改变车身颜色
                     </p>
                     <p>
                         技术栈：threejs + vue3 + blender
                     </p>
-                    <a href="https://tantanla.github.io/3DVR-Carview/" target="_blank">View Project</a>
+                    <a href="https://tantanla.github.io/3DVR-Carview/" target="_blank">点击此处浏览Demo(Click here)</a>
                 </div>
                 <!-- End .project-info -->
             </div>
             <!-- End .project -->
-            
+        </div>
+    </div> 
+
+<!-- spine project -->
+<div id="projects" class="background-alt-nth">
+    <h2 class="heading">Spine Projects</h2>
+    <p>点击下列图片可在线浏览动效</p>
+    <div class="container">
+        <!-- One Project 3DModel Block -->
+        <div class="project shadow-large">
+            <div class="project-glb">
+                <img class="image" src="assets/thumbs/hotel.png" alt="assets/fulls/model04-full.glb" />
+            </div>
+        </div>
+        <div class="project shadow-large">
+            <div class="project-glb">
+                <img class="image" src="assets/thumbs/hotel.png" alt="assets/fulls/model04-full.glb" />
+            </div>
+        </div>
+        <div class="project shadow-large">
+            <div class="project-glb">
+                <img class="image" src="assets/thumbs/hotel.png" alt="assets/fulls/model04-full.mp4" />
+            </div>
+        </div>
+    </div>
+</div>        
+
+<!-- Unity3D project     -->
+    <div id="projects" class="background-alt-nth">
+        <h2 class="heading">Unity3D Projects</h2>
+        <div class="container-game">
+            <div class="project-game shadow-large">
+                <div class="project-image">
+                    <img src="assets/thumbs/diceroller.png" />
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>3D-Dice-Roller</h3>
+                    <p>
+                        3D投骰子并计算骰子总数
+                    </p>
+                    <p>
+                        throw the dice and count the score
+                    </p>
+                    <p>
+                        技术栈：threejs + javascript + blender
+                    </p>
+                    <a href="https://tantanla.github.io/3d-dice-roller/" target="_blank">点击此处浏览Demo(Click here)</a>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- One Project Game Block -->
+            <div class="project-game shadow-large">
+                <div class="project-image">
+                    <img src="assets/thumbs/3dhouse.jpg" />
+                </div>
+                <div class="project-info">
+                    <h3>3D-VR-HouseView</h3>
+                    <p>
+                        3D沉浸式浏览房源并切换房间
+                    </p>
+                    <p>
+                        技术栈：threejs + vue + canvas
+                    </p>
+                    <a href="https://tantanla.github.io/3DVR-houseview/" target="_blank">点击此处浏览Demo(Click here)</a>
+                </div>
+            </div>
+            <!-- End of One Project Game Block -->
+
+            <div class="project-game shadow-large">
+                <div class="project-image">
+                    <img src="assets/thumbs/3dcar.jpg" />
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>3D-VR-CarView</h3>
+                    <p>
+                        交互式浏览车模型并手动改变车身颜色
+                    </p>
+                    <p>
+                        技术栈：threejs + vue3 + blender
+                    </p>
+                    <a href="https://tantanla.github.io/3DVR-Carview/" target="_blank">点击此处浏览Demo(Click here)</a>
+                </div>
+                <!-- End .project-info -->
+            </div>
             <!-- End .project -->
         </div>
     </div>
+
 
     <!-- Different media viewers -->
 
@@ -207,18 +296,23 @@
         <div id="experience-timeline">
 
             <!-- One Experience Block -->
-            <div data-date="2012.09 - 2013.06">
-                <h3>深圳云起新技术有限公司</h3>
-                <h4>前端工程师</h4>
+            <div data-date="2021.03 - 2021.09">
+                <h3>海南景咖科技有限公司</h3>
+                <h4>three.js工程师(实习)</h4>
                 <p>
-                    负责前段页面的技术开发以及项目管理
+                    负责前端房源VR页面的场景搭建
                 </p>
             </div>
-            <!-- End of One Experience Block -->
 
+            <div data-date="2021.10 - 2024.1">
+                <h3>深圳云起技术有限科技公司</h3>
+                <h4>前端建模工程师</h4>
+                <p>
+                    负责建模以及前端
+                </p>
+            </div>
 
-
-            <div data-date="September 2015 – September 2016">
+            <div data-date="2024.3 – 2024.10">
                 <h3>成都拉斯海马科技有限公司</h3>
                 <h4>three.js前端工程师</h4>
                 <p>
@@ -247,7 +341,17 @@
     </div>
     <!-- End #education -->
 
-    <!-- End #projects -->
+ <!-- about me -->
+ <div id="skills">
+    <h2 class="heading">About Me</h2>
+    <ul>
+        <h4>web3d深度爱好者，热爱技术与艺术结合的一切。喜欢自学和研究新技术，同时也喜欢和团队伙伴一起头脑风暴解决问题的过程。</h4>
+     
+        <h4>在工作中，不怕困难，认真负责</h4>
+
+        <h4></h4>
+    </ul>
+</div> 
 
     
 
@@ -258,17 +362,17 @@
             <!-- One Social Icon Block -->
             <article>
                 <i class="fa fa-envelope fa-fw"></i>
-                <span>3567952572@qq.com</span>
+                <span>ttl6401@163.com</span>
             </article>
             <!-- End of One Social Icon Block -->
 
             <article>
                 <i class="fa fa-phone fa-fw"></i>
-                <span>18808251162</span>
+                <span>17360012875</span>
             </article>
             <article>
                 <i class="fa fa-weixin fa-fw"></i>
-                <span>18808251162</span>
+                <span>freehhh6401</span>
             </article>
 
         </div>
